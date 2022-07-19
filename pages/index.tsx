@@ -14,12 +14,16 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js in CodeSandbox!</a>
+          Welcome to <a href="https://nextjs.org">Next.js</a> in CodeSandbox!
         </h1>
 
         <p className={styles.description}>
           Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+          <code className={styles.code}>pages/index.tsx</code>. 
+        </p>
+        
+        <p>
+          Tip: use the inspector (next to the address bar) to open components!
         </p>
 
         <div className={styles.grid}>
